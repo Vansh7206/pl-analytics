@@ -1,18 +1,12 @@
 # dbt internals
-pl_analytics/target/
-pl_analytics/dbt_packages/
-pl_analytics/logs/
+target/
+dbt_packages/
 logs/
 
 # credentials - NEVER push
-pl_analytics/profiles.yml
-snowflake-pl-user-accessKeys.csv
+profiles.yml
 
 # python
 venv/
 __pycache__/
 *.pyc
-
-# raw data files
-data/
-pl_analytics/data/

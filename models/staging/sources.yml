@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: football_raw
+    database: PL_ANALYTICS
+    schema: RAW
+    tables:
+      - name: matches                    
+        identifier: raw_matches
+      - name: teams
+        identifier: raw_teams
+      - name: players
+        identifier: raw_players
+      - name: match_stats
+        identifier: raw_match_stats

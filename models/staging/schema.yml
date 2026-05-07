@@ -1,0 +1,61 @@
+#Things like not_null, unique, accepted_values are solved through this
+
+version: 2
+
+models:
+  - name: stg_matches
+    columns:
+      - name: match_id
+        tests:
+          - unique
+          - not_null
+      - name: home_goals
+        tests:
+          - not_null
+      - name: away_goals
+        tests:
+          - not_null
+      - name: referee
+        tests:
+          - not_null
+
+  - name: stg_teams
+    columns:
+      - name: team_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_players
+    columns:
+      - name: player_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_match_stats
+    columns:
+      - name: match_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_home_away_performance
+    columns:
+    - name: team_id
+      tests: [not_null]
+    - name: venue
+      tests:
+        - accepted_values:
+            values: ['home', 'away']
+    - name: win_percentage
+      tests: [not_null]
+
+  - name: fct_title_race
+    columns:
+    - name: team_id
+      tests: [not_null]
+    - name: gameweek
+      tests: [not_null]
+    - name: league_position
+      tests: [not_null]
