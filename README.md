@@ -256,25 +256,16 @@ The goal was to build a production-style analytics workflow rather than just vis
 
 # 🔗 DAG Lineage
 
-Add your dbt DAG screenshot here:
-
-```text
-assets/lineage_dag.png
-```
-
+![DAG Lineage](assets/lineage_dag.png)
 ---
 
 # 👨‍💻 Author
 
 ### Vansh Chandan
-BCA Student — K.J. Somaiya Institute of Technology, Mumbai
-
-- Building projects in Data Engineering & Analytics
-- Exploring dbt, Snowflake, ML, and scalable data systems
 
 ## Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/vansh7206)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/vansh-chandan-875a373a3/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Vansh7206-black?style=flat&logo=github)](https://github.com/Vansh7206)
 
